@@ -5,20 +5,21 @@
   "homepage": "https://descado.github.io/forintend_course_paper",
   "scripts": {
     "start": "webpack serve --mode development --open",
-    "build": "webpack --mode production",
+    "build2": "webpack --mode production",
     "lint": "eslint .",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "build": "react-scripts build"
   },
   "dependencies": {
+    "@remix-run/dev": "^2.12.0",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.22.3",
-    "uuid": "^9.0.1",
-    "@remix-run/dev": "^2.12.0"
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.24.3",
