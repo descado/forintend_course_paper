@@ -18,7 +18,7 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.22.3",
     "uuid": "^9.0.1",
-    "@remix-run/dev"
+    "@remix-run/dev": "^2.12.0"
   },
   "devDependencies": {
     "@babel/core": "^7.24.3",
